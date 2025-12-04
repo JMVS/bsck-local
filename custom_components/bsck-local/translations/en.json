@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add BGH Air Conditioner",
+        "description": "Configure your BGH AC via UDP",
+        "data": {
+          "ac_name": "AC Name (e.g., Living Room)",
+          "ip_address": "IP Address",
+          "udp_port": "UDP Port (device)",
+          "local_port": "Local Port (listening)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_ip": "Invalid IP address",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "AC with this name already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure BGH AC",
+        "data": {
+          "ip_address": "IP Address",
+          "udp_port": "UDP Port (device)",
+          "local_port": "Local Port (listening)"
+        }
+      }
+    }
+  }
+}
