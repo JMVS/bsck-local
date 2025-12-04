@@ -1,0 +1,7 @@
+{
+  "name": "BSCK - BGH UDP Smart Control",
+  "render_readme": true,
+  "domains": ["climate"],
+  "iot_class": "Local Polling",
+  "homeassistant": "2023.8.0"
+}
