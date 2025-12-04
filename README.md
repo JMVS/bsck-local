@@ -17,14 +17,14 @@ Integración de Home Assistant para controlar aires acondicionados BGH mediante 
 1. Abre HACS en Home Assistant
 2. Ve a "Integraciones"
 3. Click en los 3 puntos → "Repositorios personalizados"
-4. Agrega: `https://github.com/tuusuario/bgh-udp-smart-control`
+4. Agrega: `https://github.com/JMVS/bsck-local
 5. Selecciona categoría: "Integration"
-6. Busca "BGH UDP Smart Control" e instala
+6. Busca "BSCK - BGH UDP Smart Control" e instala
 7. Reinicia Home Assistant
 
 ### Manual
 
-1. Copia la carpeta `custom_components/bgh_udp_smart_control` a tu directorio `config/custom_components/`
+1. Copia la carpeta `custom_components/bsck-local` a tu directorio `config/custom_components/`
 2. Reinicia Home Assistant
 
 ## Configuración
@@ -91,7 +91,7 @@ automation:
 ## Estructura del Proyecto
 
 ```
-custom_components/bgh_udp_smart_control/
+custom_components/bsck-local/
 ├── __init__.py          # Inicialización
 ├── manifest.json        # Metadatos
 ├── const.py            # Constantes
@@ -114,4 +114,4 @@ MIT
 
 ## Soporte
 
-🐛 Reporta bugs en: [GitHub Issues](https://github.com/tuusuario/bgh-udp-smart-control/issues)
+🐛 Reporta bugs en: [GitHub Issues](https://github.com/JMVS/bsck-local/issues)
