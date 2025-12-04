@@ -17,7 +17,7 @@ Integración de Home Assistant para controlar aires acondicionados BGH mediante 
 1. Abre HACS en Home Assistant
 2. Ve a "Integraciones"
 3. Click en los 3 puntos → "Repositorios personalizados"
-4. Agrega: `https://github.com/JMVS/bsck-local
+4. Agrega: `https://github.com/JMVS/bsck-local`
 5. Selecciona categoría: "Integration"
 6. Busca "BSCK - BGH UDP Smart Control" e instala
 7. Reinicia Home Assistant
