@@ -1,0 +1,12 @@
+{
+  "domain": "bsck-local",
+  "name": "BGH Smart Control Kit UDP Control",
+  "version": "1.0.0",
+  "documentation": "https://github.com/JMVS/bsck-local",
+  "requirements": [],
+  "codeowners": ["@JMVS"],
+  "iot_class": "local_polling",
+  "config_flow": true,
+  "dependencies": [],
+  "after_dependencies": []
+}
